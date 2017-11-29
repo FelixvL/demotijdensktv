@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoRest {
 	@GetMapping("/ktv")
 	public String demofunctie() {
-		return "tijdens demo ktv";
+		return "tijdens demo ktv extra woord";
 	}
 }
